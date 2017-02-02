@@ -1,0 +1,7 @@
+#Fri Feb 03 01:21:44 MSK 2017
+base.0=/home/knp/AndroidStudioProjects/socket.io/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_7a770910507c89372afdf0b3c2b6f5ac79712356
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/home/knp/AndroidStudioProjects/socket.io/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_b7114330dd5642b1869a3787d63499fef0770f95/classes.dex
+base.1=/home/knp/AndroidStudioProjects/socket.io/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_b7114330dd5642b1869a3787d63499fef0770f95
+file.0=/home/knp/AndroidStudioProjects/socket.io/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_7a770910507c89372afdf0b3c2b6f5ac79712356/classes.dex
