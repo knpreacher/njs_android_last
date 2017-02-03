@@ -1,4 +1,4 @@
-#Fri Feb 03 01:21:44 MSK 2017
+#Fri Feb 03 14:15:11 MSK 2017
 base.0=/home/knp/AndroidStudioProjects/socket.io/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_7a770910507c89372afdf0b3c2b6f5ac79712356
 renamed.1=classes.dex
 renamed.0=classes2.dex

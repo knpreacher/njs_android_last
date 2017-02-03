@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -26,6 +27,10 @@ public class MainActivity extends AppCompatActivity {
 
         Button btnConnect = (Button)findViewById(R.id.btnConnect);
         Button btnSend = (Button)findViewById(R.id.btnSend);
+        Button btnClear = (Button)findViewById(R.id.btnClear);
+        Button btnCID = (Button)findViewById(R.id.btnCID);
+        final EditText et = (EditText)findViewById(R.id.editText);
+
         final TextView tvid = (TextView)findViewById(R.id.textView);
         try {
             socket = IO.socket("http://192.168.0.108:8080");
@@ -42,6 +47,18 @@ public class MainActivity extends AppCompatActivity {
 
                 }
             });
+            socket.on("uc", new Emitter.Listener() {
+                @Override
+                public void call(final Object... args) {
+                    Log.i(TAG, "call: uc: "+args[0].toString());
+                    runOnUiThread(new Runnable() {
+                        @Override
+                        public void run() {
+                            Toast.makeText(MainActivity.this, args[0].toString(), Toast.LENGTH_SHORT).show();
+                        }
+                    });
+                }
+            }); 
         } catch (URISyntaxException e) {
             e.printStackTrace();
             Log.i(TAG, "uri check");
@@ -68,11 +85,29 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if(socket.connected()){
                     Log.i(TAG, "onClick: scon & send mes");
-                    socket.send("some mes");
+                    socket.send(et.getText().toString());
                     Log.i(TAG, "onClick: after sending");
                 }
             }
         });
-
+        btnClear.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                et.setText("");
+                et.setFocusable(true);
+            }
+        });
+        btnCID.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                try {
+                    Log.i(TAG, "onClick: before emit");
+                    socket.emit("cmid", et.getText().toString());
+                    Log.i(TAG, "onClick: after emit");
+                } catch (Exception e){
+                    Log.i(TAG, "onClick: emit exc");
+                }
+            }
+        });
     }
 }

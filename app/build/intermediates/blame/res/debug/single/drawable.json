@@ -4,6 +4,10 @@
         "source": "/home/knp/AndroidStudioProjects/socket.io/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_ratingbar_indicator_material.xml"
     },
     {
+        "merged": "/home/knp/AndroidStudioProjects/socket.io/app/build/intermediates/res/merged/debug/drawable/nodejs.png",
+        "source": "/home/knp/AndroidStudioProjects/socket.io/app/src/main/res/drawable/nodejs.png"
+    },
+    {
         "merged": "/home/knp/AndroidStudioProjects/socket.io/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
         "source": "/home/knp/AndroidStudioProjects/socket.io/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable/abc_ratingbar_material.xml"
     },
