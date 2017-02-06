@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
@@ -59,4 +60,28 @@
         android:layout_below="@+id/btnSend"
         android:layout_alignStart="@+id/btnSend"
         android:id="@+id/btnCID" />
+
+    <Button
+        android:text="SIM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnCID"
+        android:layout_alignEnd="@+id/btnCID"
+        android:id="@+id/btnImage" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/nodejs"
+        android:layout_below="@+id/btnImage"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/btnSettings"
+        android:background="@android:drawable/ic_menu_preferences"
+        android:layout_width="45dp" />
 </RelativeLayout>

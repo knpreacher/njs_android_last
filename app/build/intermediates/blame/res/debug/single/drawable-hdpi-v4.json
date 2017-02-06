@@ -24,6 +24,10 @@
         "source": "/home/knp/AndroidStudioProjects/socket.io/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable-hdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
+        "merged": "/home/knp/AndroidStudioProjects/socket.io/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/design_ic_visibility.png",
+        "source": "/home/knp/AndroidStudioProjects/socket.io/app/build/intermediates/exploded-aar/com.android.support/design/25.1.1/res/drawable-hdpi-v4/design_ic_visibility.png"
+    },
+    {
         "merged": "/home/knp/AndroidStudioProjects/socket.io/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png",
         "source": "/home/knp/AndroidStudioProjects/socket.io/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
     },
@@ -102,6 +106,10 @@
     {
         "merged": "/home/knp/AndroidStudioProjects/socket.io/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_star_black_48dp.png",
         "source": "/home/knp/AndroidStudioProjects/socket.io/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/drawable-hdpi-v4/abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "/home/knp/AndroidStudioProjects/socket.io/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/design_ic_visibility_off.png",
+        "source": "/home/knp/AndroidStudioProjects/socket.io/app/build/intermediates/exploded-aar/com.android.support/design/25.1.1/res/drawable-hdpi-v4/design_ic_visibility_off.png"
     },
     {
         "merged": "/home/knp/AndroidStudioProjects/socket.io/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png",

@@ -21,6 +21,24 @@
     </item>
     <item
         is-multidex="true"
+        jar="/home/knp/.gradle/caches/modules-2/files-2.1/io.socket/socket.io-client/0.8.3/b30500232ff0668a47c9f91f02e6935457a52fb5/socket.io-client-0.8.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b30500232ff0668a47c9f91f02e6935457a52fb5">
+        <dex dex="/home/knp/AndroidStudioProjects/socket.io/app/build/intermediates/transforms/dex/debug/folders/1000/10/socket.io-client-0.8.3_f9a9cf970c43e1adf28498efe8a1a7280351c502/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/knp/AndroidStudioProjects/socket.io/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5989043418754ab74434b9626003e52fb592e67f">
+        <dex dex="/home/knp/AndroidStudioProjects/socket.io/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_7a770910507c89372afdf0b3c2b6f5ac79712356/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/knp/AndroidStudioProjects/socket.io/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -39,12 +57,30 @@
     </item>
     <item
         is-multidex="true"
+        jar="/home/knp/AndroidStudioProjects/socket.io/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
+        <dex dex="/home/knp/AndroidStudioProjects/socket.io/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.1.1_d76b956d46f7bc4b3078b5fc697cc7c75b84be0d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/knp/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.11.0/840897fcd7223a8143f1d9b6f69714e7be34fd50/okio-1.11.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
         <dex dex="/home/knp/AndroidStudioProjects/socket.io/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.11.0_c625b5f4f50b249e56cbd5ba0f6549a6391976c0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/knp/AndroidStudioProjects/socket.io/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="/home/knp/AndroidStudioProjects/socket.io/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.1_bd3a13d5a7d5211fb7a4b944e698206d4aae8df7/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -70,7 +106,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="9357ab364703e6d19db70e045a04c921b3cfe706">
+        sha1="3a4081e8e86bdaa758c00de91a4e4bdf6e3bcb82">
         <dex dex="/home/knp/AndroidStudioProjects/socket.io/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_b7114330dd5642b1869a3787d63499fef0770f95/classes.dex" />
     </item>
     <item
@@ -84,30 +120,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/knp/.gradle/caches/modules-2/files-2.1/io.socket/socket.io-client/0.8.3/b30500232ff0668a47c9f91f02e6935457a52fb5/socket.io-client-0.8.3.jar"
+        jar="/home/knp/AndroidStudioProjects/socket.io/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="b30500232ff0668a47c9f91f02e6935457a52fb5">
-        <dex dex="/home/knp/AndroidStudioProjects/socket.io/app/build/intermediates/transforms/dex/debug/folders/1000/10/socket.io-client-0.8.3_f9a9cf970c43e1adf28498efe8a1a7280351c502/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/knp/AndroidStudioProjects/socket.io/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="935cfde2f228fad1dd84143a233e6835067cab25">
-        <dex dex="/home/knp/AndroidStudioProjects/socket.io/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_7a770910507c89372afdf0b3c2b6f5ac79712356/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/knp/AndroidStudioProjects/socket.io/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
-        <dex dex="/home/knp/AndroidStudioProjects/socket.io/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.1_bd3a13d5a7d5211fb7a4b944e698206d4aae8df7/classes.dex" />
+        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
+        <dex dex="/home/knp/AndroidStudioProjects/socket.io/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.1.1_2b2508246220c21875ec82e939c23f70637d4755/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -117,6 +135,15 @@
         revision="25.0.2"
         sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
         <dex dex="/home/knp/AndroidStudioProjects/socket.io/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.1_951ee28696cb3ef78c40a3bf3d891983019e4e10/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/knp/AndroidStudioProjects/socket.io/app/build/intermediates/exploded-aar/com.android.support/design/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
+        <dex dex="/home/knp/AndroidStudioProjects/socket.io/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.1.1_bbb1b4c2e94971c16feb46b434d1fe97afe56e17/classes.dex" />
     </item>
     <item
         is-multidex="true"
